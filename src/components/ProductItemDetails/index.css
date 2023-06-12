@@ -1,0 +1,128 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.products-container {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.product-content-container {
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+.product-img {
+  border-radius: 15px;
+  width: 50%;
+}
+.heading {
+  color: #171f46;
+  line-height: 1.5px;
+}
+.cost {
+  padding-top: 10px;
+  color: #12022f;
+  font-weight: bold;
+  font-size: 20px;
+}
+.rating-review-container {
+  display: flex;
+  align-items: center;
+}
+.reviews {
+  padding-left: 15px;
+  color: #171f46;
+  font-weight: 500;
+}
+.pro-rating-container {
+  display: flex;
+  width: 60px;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+.description {
+  color: #616e7c;
+}
+.availability {
+  color: #171f46;
+  font-weight: bold;
+}
+.label {
+  padding-left: 10px;
+  color: #cbced2;
+}
+.line {
+  border: 1px solid #cbced2;
+  width: 100%;
+}
+.count-container {
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+.count {
+  color: #171f46;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.similar-product-heading {
+  line-height: 1.5px;
+  padding-bottom: 20px;
+  color: #616e7c;
+}
+.similar-products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+  padding: 10px;
+}
+.similar-products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .products-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .product-content-container {
+    padding-left: 0px;
+  }
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.failure-img {
+  width: 60%;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
